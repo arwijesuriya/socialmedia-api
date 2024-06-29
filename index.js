@@ -1,10 +1,12 @@
 const express = require("express");
+const connectDB = require("./database/db");
 const app = express();
+const dotenv = require("dotenv");
 
-app.get("/", (req, res) => {
-    res.send("Hello World!");
-});
+dotenv.config();
 
-app.listen(6500, () => {
+
+app.listen(process.env.PORT, () => {
+    connectDB();
     console.log("App listening on port 6500");
 });
