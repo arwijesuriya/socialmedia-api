@@ -8,10 +8,8 @@ router.post("/register", registerController);
 // login
 router.post("/login", loginController);
 
-
 // logout
 router.get("/logout", logoutController);
-
 
 // refetch
 router.get("/refetch", refetchUserController);
