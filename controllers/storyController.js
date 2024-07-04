@@ -1,6 +1,6 @@
-const { CustomError } = require("../middlewares/error")
-const Story = require("../models/Story")
-const User = require("../models/User")
+const { CustomError } = require("../middlewares/error");
+const Story = require("../models/Story");
+const User = require("../models/User");
 
 const createStoryController = async (req, res, next) => {
     const { userId } = req.params;

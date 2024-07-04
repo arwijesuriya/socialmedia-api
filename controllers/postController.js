@@ -1,6 +1,6 @@
-const Post = require("../models/Post")
-const User = require("../models/User")
-const { CustomError } = require("../middlewares/error")
+const Post = require("../models/Post");
+const User = require("../models/User");
+const { CustomError } = require("../middlewares/error");
 
 const createPostController = async (req, res, next) => {
     const { userId, caption } = req.body;
