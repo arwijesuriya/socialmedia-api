@@ -1,6 +1,6 @@
 # Social Media REST API
  
-Social Media REST APIs project! This is RESTful APIs built with Node.js, Express.js, and MongoDB, designed to support a social media application. The APIs cover fundamental CRUD operations and some advanced features
+Social Media REST API project! This RESTful API was built with Node.js, Express.js, and MongoDB, designed to support a social media application. The APIs cover fundamental CRUD operations and some advanced features
 
 ## Features
 
